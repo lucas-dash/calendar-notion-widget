@@ -1,13 +1,11 @@
-import MonthCalendar from '@/components/MonthCalendar';
-import { ModeToggle } from '@/components/ui/mode-toggle';
+import WeekCalendar from '@/components/WeekCalendar';
 
-export default function Home() {
+export default function WeekPage() {
   return (
     <div className="bg-background">
-      <ModeToggle />
       <main className="min-h-screen flex items-center justify-center">
         <section className="w-max">
-          <MonthCalendar />
+          <WeekCalendar />
         </section>
       </main>
     </div>
