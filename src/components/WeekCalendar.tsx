@@ -60,7 +60,7 @@ export default function WeekCalendar() {
         </div>
       </div>
 
-      <div className="grid grid-cols-7 gap-3">
+      <div className="grid grid-cols-7 gap-3 max-sm:text-sm">
         {days.map((day) => (
           <div
             key={day.toString()}
